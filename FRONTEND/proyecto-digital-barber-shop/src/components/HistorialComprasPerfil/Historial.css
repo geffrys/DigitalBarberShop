@@ -1,0 +1,19 @@
+.cuerpo{
+    background-image: url('./hitoria.jpg');
+    padding: 40px;
+}
+.contenedor-principal-historial{
+    opacity: 0.9;
+    background-color: #8C7D77;
+    height: 850px;
+    color: aliceblue;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 50px;
+    margin-bottom: 40px;    
+}
+
+.tabla-historial{
+    background-color: white;
+    color: black;
+}

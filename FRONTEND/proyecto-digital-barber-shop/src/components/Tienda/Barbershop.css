@@ -1,0 +1,43 @@
+.container-store{
+    color: black;
+    margin: 50px 0 ;
+    box-sizing: border-box;
+}
+
+
+.searchbar-container input{
+    width: 400px;
+}
+.searchbar-container{
+    text-align: right;
+}
+
+.cardStore{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.contenedorItems{
+    display: grid;
+    row-gap: 50px;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.cardStore:hover{
+        transform: scale(1.02);
+        background-color: aliceblue;
+}
+
+.cardStore button{
+    margin-top: 10px;
+}
+.cardStore img{
+    object-fit: cover;
+}

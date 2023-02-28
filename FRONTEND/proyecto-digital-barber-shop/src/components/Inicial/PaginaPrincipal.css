@@ -1,0 +1,32 @@
+.Card:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.Card{
+    background-color: #4F3129;
+    padding-bottom: 45px;
+    border-radius: 20px;
+    color: #dbc5aa;
+}
+.Card img{
+    object-fit: cover;
+}
+
+/*.bloque-pagina-principal{    
+    height: 1080px;
+}*/
+
+.containerppl{
+
+    margin-top: 40px;
+    
+}
+
+.bloque-pagina-principal{
+    background-image: url('./imgs/tienda.jpeg');
+    height: 100%;
+    padding-bottom: 40px;
+}
+
